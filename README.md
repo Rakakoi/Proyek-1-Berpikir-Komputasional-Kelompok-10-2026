@@ -1,6 +1,7 @@
 # Proyek-1-Berpikir-Komputasional-Kelompok-10-2026
 Muhammad Rakha E. Putra/16726519, Jessica Lydia Tambunan/16726119, Matahari Putra Hamid/16726044, Arsha Ismail Amarion/16726464, Aisyah Salsabila Al Jinani/16726484, Adam Hilmy Fathan Aritonang/16726414
 
+
 daftar_kartu = [None]*3
 daftar_plat = [None]*3
 daftar_saldo = [None]*3
@@ -27,7 +28,6 @@ while True:
         break
     plat_keluar = input("Input plat nomor saat keluar: ")
     status_cocok = False
-    
     for i in range(3):
         if daftar_kartu[i] == ktm_keluar and daftar_plat[i] == plat_keluar and daftar_status[i] == True:
             status_cocok = True
