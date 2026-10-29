@@ -1,19 +1,5 @@
 # Proyek-1-Berpikir-Komputasional-Kelompok-10-2026
 Muhammad Rakha E. Putra/16726519, Jessica Lydia Tambunan/16726119, Matahari Putra Hamid/16726044, Arsha Ismail Amarion/16726464, Aisyah Salsabila Al Jinani/16726484, Adam Hilmy Fathan Aritonang/16726414
-# Deskripsi : Mengelola sistem gerbang masuk dan keluar parkir motor menggunakan KTM, plat nomor, saldo, dan status kendaraan.
- 
-# KAMUS :
-# daftar_kartu, daftar_plat : array of string
-# daftar_saldo : array of int
-# daftar_status : array of bool
-# i, durasi, tarif : int
-# ktm_keluar, plat_keluar : string
-# status_cocok : bool
-
-# Algoritma
-
-# Array untuk membuat slot daftar kartu, plat, saldo, dan status motor yang masuk.
-# Kami menyederhanakannya dengan contoh hanya terbatas 3 slot. Untuk realnya bisa ditambah lebih banyak.
 
 daftar_kartu = [None]*3
 daftar_plat = [None]*3
@@ -22,7 +8,6 @@ daftar_status = [None]*3
 
 print("==== GERBANG MASUK ====")
 
-# Perulangan untuk memasukkan data.
 
 for i in range(3):
     daftar_kartu[i] = input("Input KTM "+str(i+1)+" : ")
@@ -35,7 +20,6 @@ print("")
 
 print("==== GERBANG KELUAR ====")
 
-# Perulangan agar sistem berulang mengecek jika ada yang ingin keluar.
 
 while True:
     ktm_keluar = input("Input KTM saat keluar (ketik selesai untuk berhenti): ")
